@@ -50,7 +50,7 @@ The Java/Kotlin bot dependencies are defined in the build system. Gradle automat
 
 **NOTE:** The Java/Kotlin bot interfaces with the Python neural network, but is not dependent on it. The following is only required if the bot will be set to use the neural network.
 
-The recommended versions of each dependency are also listed in [`requirements.txt`](NN-chatbot/requirements.txt).
+The recommended versions of each dependency are also listed in [`requirements.txt`](https://github.com/LunarWatcher/NN-chatbot/blob/master/requirements.txt).
 
 [pytest](https://docs.pytest.org/en/latest/) - A Python testing tool.
 
