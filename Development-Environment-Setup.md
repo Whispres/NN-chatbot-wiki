@@ -20,7 +20,7 @@ Click on the program name to be redirected to the respective download/installati
 * IntelliJ IDEA projects can be synchronized with Gradle projects, and IntelliJ IDEA can configure a Gradle composite build. For more information, click [here](https://www.jetbrains.com/help/idea/gradle.html).
 * **NOTE:** [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows) is a viable alternative to IntelliJ if the Java port is not used, but it cannot synchronize with Gradle. Also, the Python plugin for IntelliJ IDEA has the same functionality as the community edition of PyCharm, so it is possible to continue working from IntelliJ even without the Java port. This is why using IntelliJ in conjunction with Gradle is preferable.
 
-#### [Python 3.6+](https://www.python.org/downloads/) ####
+#### [Python 3.6+](https://www.python.org/downloads/)
 * **NOTE:** Python 3.6+ is only necessary if the NN module/Python bot is used.
 
 #### [Java 8](https://java.com/en/download/)
@@ -87,8 +87,8 @@ The recommended versions of each dependency are also listed in [`requirements.tx
 
 ## Ready?
 Do you have your Stack Exchange, Discord and/or Twitter bot account information?
-  - See examples of how the account information is used in  [`bot.properties-example`](NN-chatbot-wiki/bot.properties-example/), [`creds.properties-example`](NN-chatbot-wiki/creds.properties-example), [`Config.py_example`](NN-chatbot-wiki/Config.py_example).
-  * See [Bot Account Registration Help](NN-chatbot-wiki/Bot Account Registration Help) for more on registering accounts and finding account information.
+  - See examples of how the account information is used in  [`bot.properties-example`](https://github.com/Whispres/NN-chatbot-wiki/blob/master/bot.properties-example.md), [`creds.properties-example`](https://github.com/Whispres/NN-chatbot-wiki/blob/master/creds.properties-example.md), [`Config.py_example`](https://github.com/Whispres/NN-chatbot-wiki/blob/master/Config.py_example.md).
+  * See [Bot Account Registration Help](https://github.com/Whispres/NN-chatbot-wiki/blob/master/Bot%20Account%20Registration%20Help.md) for more on registering accounts and finding account information.
 
-Once all programs/dependencies are downloaded and installed, proceed to [Setting up the bot](NN-chatbot-wiki/Setting-up-the-bot).
+Once all programs/dependencies are downloaded and installed, proceed to [Setting up the bot](https://github.com/Whispres/NN-chatbot-wiki/blob/master/Setting-up-the-bot.md).
 <!--Unsure if they should be redirected to the Setting-up-the-bot wiki page or the Readme. Add a link later.-->
