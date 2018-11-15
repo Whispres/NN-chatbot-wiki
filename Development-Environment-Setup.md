@@ -2,7 +2,7 @@
 ## Operating System Compatibility
 NN-chatbot is built in Java and Python with no specific  operating system (OS) formatting. The program is designed to be universally compatible with any OS platform, but has only been validated in Windows.
 
-Volunteers interested in OS platform validation are needed and appreciated! Review the contribution guidelines in the CONTRIBUTING.md file. To report compatibility errors, open an issue on the NN-Chatbot Github page [here](https://github.com/LunarWatcher/NN-chatbot/issues).
+Volunteers interested in OS platform validation are needed. Review the contribution guidelines in the CONTRIBUTING.md file for more information. To report compatibility errors, open an issue on the NN-Chatbot Github page [here](https://github.com/LunarWatcher/NN-chatbot/issues).
 
 ## Chatbot Prerequisites
 Click on the program name to be redirected to the respective download/installation page.
@@ -18,7 +18,7 @@ Click on the program name to be redirected to the respective download/installati
 #### [IntelliJ](https://www.jetbrains.com/idea/download/#section=windows)
 * Supports Python editing with the [Python plugin](https://www.jetbrains.com/help/idea/plugin-overview.html).
 * IntelliJ IDEA projects can be synchronized with Gradle projects, and IntelliJ IDEA can configure a Gradle composite build. For more information, click [here](https://www.jetbrains.com/help/idea/gradle.html).
-* **NOTE:** [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows) is a viable alternative to IntelliJ if the Java port is not used, but it cannot synchronize with Gradle. Also, the Python plugin for IntelliJ IDEA has the same functionality as the community edition of PyCharm, so it is possible to continue working from IntelliJ even without the Java port. This is why using IntelliJ in conjunction with Gradle is preferable.
+* **NOTE:** [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows) is a viable alternative to IntelliJ if the Java port is not used, but it cannot synchronize with Gradle. Using IntelliJ in conjunction with Gradle is recommended over PyCharm even without the Java port because the Python plugin for IntelliJ IDEA has the same functionality as the community edition of PyCharm.
 
 #### [Python 3.6+](https://www.python.org/downloads/)
 * **NOTE:** Python 3.6+ is only necessary if the NN module/Python bot is used.
@@ -48,7 +48,7 @@ The Java/Kotlin bot dependencies are defined in the build system. Gradle automat
 
 ## Python Neural Network Dependencies
 
-**NOTE:** The Java/Kotlin bot interfaces with the Python neural network, but is not dependent on it. The following is only required if the bot will be set to use the neural network.
+**NOTE:** The Java/Kotlin bot interfaces with the Python neural network, but it is not dependent on the nueral network for basic commands and operations. The following is only required if the bot will be set to use the neural network.
 
 The recommended versions of each dependency are also listed in [`requirements.txt`](https://github.com/LunarWatcher/NN-chatbot/blob/master/requirements.txt).
 
