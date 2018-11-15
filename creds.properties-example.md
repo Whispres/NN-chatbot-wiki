@@ -58,14 +58,14 @@ stackexchange.user.id=8910
 
 ## Discord
 #### Discord Bot Username
-The username given to your bot on its Discord account.
+The username given to the bot on its Discord account.
 ```
 discord.user.name=Alisha#1234
 ```
 
 #### Discord Token
 The token assigned to the bot when it was registered as an application on Discord.
-Register your bot as a Discord Application [here](https://discordapp.com/developers/applications/me).
+Register the bot as a Discord Application [here](https://discordapp.com/developers/applications/me).
 ```
 discord.user.email=token_here
 ```
@@ -85,7 +85,7 @@ discord.user.id=1234
 
 ## Twitch
 #### Twitch Username
-The username given to your bot on its Discord account.
+The username given to the bot on its Discord account.
 ```
 twitch.user.name=MyCreativeBotUsernameHere
 ```
@@ -93,7 +93,7 @@ twitch.user.name=MyCreativeBotUsernameHere
 #### Twitch Client ID
 The Client ID assigned to the bot when it was registered as an application on Twitch.
 
-Register your bot as an application [here](https://glass.twitch.tv/console/apps/create).
+Register the bot as an application [here](https://glass.twitch.tv/console/apps/create).
 ```
 twitch.user.email=Client ID
 ```
