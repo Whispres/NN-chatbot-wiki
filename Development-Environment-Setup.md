@@ -35,7 +35,7 @@ cd NN-chatbot
 ```
 ## Dataset
 
-The [Cornell Movie-Dialogs Corpus](http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
+#### The [Cornell Movie-Dialogs Corpus](http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
 
 The bot is currently designed for this dataset. There will be support for custom dataset (and conversation scraping for personalized conversations) at a later date.
 
@@ -88,7 +88,7 @@ The recommended versions of each dependency are also listed in [`requirements.tx
 ## Ready?
 Do you have your Stack Exchange, Discord and/or Twitter bot account information?
   - See examples of how the account information is used in  [`bot.properties-example`](bot.properties-example.md), [`creds.properties-example`](creds.properties-example.md), [`Config.py_example`](Config.py_example.md).
-  * See [Bot Account Registration Help](Bot-Account-Registration-Help.md) for more on registering accounts and finding account information.
+  * See [Bot Account Registration Help](Bot-Account-Registration-Help.md) for assistance registering accounts and finding account information.
 
 Once all programs/dependencies are downloaded and installed, proceed to [Setting up the bot](Setting-up-the-bot.md).
 <!--Unsure if they should be redirected to the Setting-up-the-bot wiki page or the Readme. Add a link later.-->
